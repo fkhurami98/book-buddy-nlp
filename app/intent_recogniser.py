@@ -1,5 +1,5 @@
 import spacy
-from src.data_processer import DataProcessor
+from app.data_processer import DataProcessor
 
 
 class IntentRecogniser:

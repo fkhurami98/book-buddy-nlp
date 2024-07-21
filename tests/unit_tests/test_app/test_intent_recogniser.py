@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import MagicMock
-from src.intent_recogniser import IntentRecogniser
+from app.intent_recogniser import IntentRecogniser
 
 
 @pytest.fixture

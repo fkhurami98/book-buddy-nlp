@@ -1,4 +1,4 @@
-from src.utils.utilities import load_json_data
+from app.utils.utilities import load_json_data
 
 
 class RecommendationEngine:

@@ -1,15 +1,8 @@
-import uvicorn
-from fastapi import FastAPI
-
-from src.cli_handler import CLIHandler
-from src.intent_recogniser import IntentRecogniser
-from src.recommendation_engine import RecommendationEngine
+from app.cli_handler import CLIHandler
+from app.intent_recogniser import IntentRecogniser
+from app.recommendation_engine import RecommendationEngine
 from config import SPACY_MODEL_NAME, GENRES
-from src.utils.utilities import install_spacy_model
-from api.routers import search
-
-
-
+from app.utils.utilities import install_spacy_model
 
 def main():
     """Runs book buddy from the CLI"""
@@ -20,7 +13,6 @@ def main():
 
     cli_handler = CLIHandler(intent_recogniser, recommendation_engine)
     cli_handler.run()
-
 
 
 if __name__ == "__main__":
