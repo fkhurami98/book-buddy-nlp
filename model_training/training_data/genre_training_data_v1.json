@@ -1,0 +1,2630 @@
+[
+    [
+        "This book falls into the sci-fi genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the science fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the sci fi genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the SF genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    27,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the fantasy genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the mystery genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the psychological thriller genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    47,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the thriller genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the horror genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the historical fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    43,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the historical genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the western genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the dystopian genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the utopian genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the speculative fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    44,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the cyberpunk genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the steampunk genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the biopunk genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the romantic comedy genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the romance genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the contemporary romance genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    45,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the romcom genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the comedy genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the drama genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    30,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the tragedy genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the crime genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    30,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the detective genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the adventure genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the action genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the non-fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the biography genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the autobiography genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the memoir genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the self-help genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the guide genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    30,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the travel genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the true crime genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the religious genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the spiritual genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the new age genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the science genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the history genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the math genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    29,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the mathematics genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the philosophy genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the poetry genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the essay genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    30,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the anthology genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the short story genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the young adult genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the YA genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    27,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the children's genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the picture book genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the graphic novel genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the manga genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    30,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the light novel genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the erotica genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the LGBTQ+ genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the literature genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the queer literature genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    41,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the classical genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the american literature genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    44,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the classic american literature genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    52,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the chick lit genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the paranormal genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the urban fantasy genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the magical realism genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the saga genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    29,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the epic genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    29,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the political genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the war genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    28,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the apocalyptic genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the post-apocalyptic genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    41,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the space opera genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the hard science fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    45,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the soft science fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    45,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the military science fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    49,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the pulp fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the gothic genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the fairy tale genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the folk tale genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the mythology genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the educational genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the health genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the fitness genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the cooking genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the cookbook genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the art genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    28,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the photography genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the diy genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    28,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the do it yourself genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    39,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the gardening genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the sports genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the technology genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the computer science genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    41,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the business genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the economics genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the finance genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the law genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    28,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the psychology genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the sociology genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the anthropology genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the academic genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the reference genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the dictionary genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the encyclopedia genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the manual genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the textbook genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the journal genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the humor genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    30,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the alternative history genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    44,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the amateur sleuth genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    39,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the animal genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the anime genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    30,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the apocalyptic thriller genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    45,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the arthurian genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the bildungsroman genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the biographical novel genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    43,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the body horror genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the campus novel genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the chivalric romance genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    42,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the cozy mystery genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the crafts genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the creative non-fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    45,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the cyber thriller genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    39,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the dark fantasy genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the dark humor genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the disaster genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the domestic fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    41,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the eco thriller genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the epistolary genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the erotic thriller genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the espionage genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the experimental genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the fable genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    30,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the feminist genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the flash fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the folklore genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the food literature genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the game genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    29,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the gay fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the gender studies genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    39,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the ghost story genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the glbt genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    29,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the graphic memoir genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    39,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the hardboiled genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the high fantasy genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the historical mystery genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    43,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the historical romance genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    43,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the historical thriller genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    44,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the interactive genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the international genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the invasion literature genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    44,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the investigative journalism genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    49,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the legal thriller genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    39,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the lesbian fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the literary fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    41,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the love story genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the magic realism genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the maritime genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the medieval genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the metaphysical genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the military history genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    41,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the modernist genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the music genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    30,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the narrative non-fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    46,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the nature genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the neo-noir genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the new adult genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the noir genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    29,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the occult genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the oral history genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the paranormal romance genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    43,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the philosophical fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    46,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the pirate genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the political thriller genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    43,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the postmodern genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the prehistory genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the psychological horror genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    45,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the pulp noir genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the queer fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the quest genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    30,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the quick reads genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the quirky genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the regency romance genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the road novel genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the robotics genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the rural genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    30,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the satire genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the science fantasy genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the self-improvement genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    41,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the serial killer genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the slipstream genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the socio-political genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the space western genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the spy thriller genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the supernatural genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the surrealist genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the survival genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the suspense genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the sword and sorcery genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    42,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the techno-thriller genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the time travel genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the transgressive genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the travelogue genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the urban genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    30,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the vampire genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the victorian genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    34,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the video game genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the virtual reality genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the weird fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the werewolf genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    33,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the wilderness genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the witchcraft genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the women's fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the world history genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the zombie genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    31,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the teen romance genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "GENRE"
+                ]
+            ]
+        }
+    ]
+]
