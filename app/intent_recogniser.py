@@ -1,17 +1,15 @@
+from typing import Any
+
+
 class IntentRecogniser:
-    def __init__(self, genres, entity_recogniser):
-        self.genres = genres
+    def __init__(self, entity_recogniser):
         self.entity_recogniser = entity_recogniser
 
-    def get_query_intents(self, entities):
+    def get_query_intents(self, entities) -> list:
+        print("get_query_intents debug")
+        print(f"{entities}")
         intents = []
         entity_types = {ent["type"] for ent in entities}
-
-        # Check for genres in entities
-        for ent in entities:
-            if ent["entity"].lower() in self.genres:
-                intents.append("genre_recommendation")
-                break
 
         intent_mappings = {
             "PERSON": "author_query",
@@ -46,7 +44,6 @@ class IntentRecogniser:
     def extract_intent_details(self, entities, detail_type):
         details = set()
         detail_mapping = {
-            "genres": lambda ent: ent["entity"].lower() in self.genres,
             "author": lambda ent: ent["type"] == "PERSON",
             "work_of_art": lambda ent: ent["type"] == "WORK_OF_ART",
             "date": lambda ent: ent["type"] == "DATE",
@@ -57,7 +54,7 @@ class IntentRecogniser:
                 details.add(ent["entity"])
         return details
 
-    def process_query(self, input_string):
+    def process_query(self, input_string) -> tuple[Any, list, dict[str, set]]:
         """
         ENTRY POINT: Processes the input query to extract intents and relevant details.
         """

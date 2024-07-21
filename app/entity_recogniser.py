@@ -4,7 +4,7 @@ class EntityRecogniser:
     def __init__(self, model_name):
         self.nlp = spacy.load(model_name)
 
-    def identify_entities(self, text):
+    def identify_entities(self, text) -> list:
         doc = self.nlp(text)
         entities = []
         for ent in doc.ents:
