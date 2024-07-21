@@ -1,7 +1,21 @@
 import json
+import random
 
+INTENTS = [
+    "Give me a book based on ",
+    "Recommend me something similar to ",
+    "I want a book ",
+    "Can you suggest a ",
+    "I'd like a book in the ",
+    "Show me a ",
+    "Find me a ",
+    "I'm interested in ",
+    "Suggest a ",
+    "What about a ",
+    "How about a ",
+    "Could you find a ",
+]
 
-# This could be a SQL databse in the future?
 GENRES = [
     "sci-fi",
     "science fiction",
@@ -29,7 +43,8 @@ GENRES = [
     "comedy",
     "drama",
     "tragedy",
-    "contemporary fiction" "crime",
+    "contemporary fiction",
+    "crime",
     "detective",
     "adventure",
     "action",
@@ -231,14 +246,42 @@ GENRES = [
 ]
 
 
-def generate_training_data(genres):
+def generate_training_data(intents, genres):
     training_data = []
-    for genre in genres:
-        sentence = f"This book falls into the {genre} genre."
-        start_idx = sentence.find(genre)
-        end_idx = start_idx + len(genre)
-        entities = [(start_idx, end_idx, "GENRE")]
-        training_data.append((sentence, {"entities": entities}))
+    forms = ["normal", "question", "negation", "context", "multiple_genres"]
+
+    for intent in intents:
+        for genre in genres:
+            form = random.choice(forms)
+
+            if form == "normal":
+                sentence = f"{intent}{genre}"
+            elif form == "question":
+                sentence = f"Can you {intent.lower()}{genre}?"
+            elif form == "negation":
+                sentence = f"Don't {intent.lower()}{genre}"
+            elif form == "context":
+                sentence = f"{intent} a book that is {genre}"
+            elif form == "multiple_genres":
+                genre2 = random.choice([g for g in genres if g != genre])
+                if genre in genre2 or genre2 in genre:
+                    continue  # Skip to avoid overlapping genres
+                sentence = f"{intent}{genre} and {genre2}"
+                start_idx1 = sentence.find(genre)
+                end_idx1 = start_idx1 + len(genre)
+                start_idx2 = sentence.find(genre2)
+                end_idx2 = start_idx2 + len(genre2)
+                entities = [
+                    (start_idx1, end_idx1, "GENRE"),
+                    (start_idx2, end_idx2, "GENRE"),
+                ]
+                training_data.append((sentence, {"entities": entities}))
+                continue  # Skip the rest of the loop for multiple genres
+
+            start_idx = sentence.find(genre)
+            end_idx = start_idx + len(genre)
+            entities = [(start_idx, end_idx, "GENRE")]
+            training_data.append((sentence, {"entities": entities}))
 
     return training_data
 
@@ -248,8 +291,8 @@ def save_training_data(file_path, data):
         json.dump(data, file, indent=4)
 
 
-training_data = generate_training_data(GENRES)
+training_data = generate_training_data(INTENTS, GENRES)
 save_training_data(
-    file_path="/Users/farhadkhurami/Developer/book-buddy-nlp/model_training/v1/training_data/genre_training_data.json",
+    file_path="model_training/v1/training_data/genre_intent_training_data.json",
     data=training_data,
 )
