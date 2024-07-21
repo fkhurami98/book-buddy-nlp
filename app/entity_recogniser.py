@@ -14,7 +14,7 @@ class EntityRecogniser:
 
 
 entities = EntityRecogniser(
-    model_name="model_training/trained_models/custom_genre"
+    model_name="model_training/v1/trained_models/custom_genre"
 ).identify_entities("Purple Akhi in a trackie")
 
 print(entities)

@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 settings.json
-model_training/trained_models/
+model_training/v1/trained_models/custom_genre

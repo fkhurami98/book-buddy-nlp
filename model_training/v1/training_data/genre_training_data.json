@@ -312,12 +312,12 @@
         }
     ],
     [
-        "This book falls into the crime genre.",
+        "This book falls into the contemporary fictioncrime genre.",
         {
             "entities": [
                 [
                     25,
-                    30,
+                    50,
                     "GENRE"
                 ]
             ]
@@ -636,6 +636,18 @@
         }
     ],
     [
+        "This book falls into the children's fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    43,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
         "This book falls into the picture book genre.",
         {
             "entities": [
@@ -750,6 +762,18 @@
                 [
                     25,
                     44,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the classic fiction genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    40,
                     "GENRE"
                 ]
             ]
@@ -2136,12 +2160,60 @@
         }
     ],
     [
+        "This book falls into the lovecraftian horror genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    44,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the cosmic horror genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
         "This book falls into the prehistory genre.",
         {
             "entities": [
                 [
                     25,
                     35,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the comedy horror genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
+                    "GENRE"
+                ]
+            ]
+        }
+    ],
+    [
+        "This book falls into the gothic horror genre.",
+        {
+            "entities": [
+                [
+                    25,
+                    38,
                     "GENRE"
                 ]
             ]
