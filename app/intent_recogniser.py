@@ -1,73 +1,68 @@
-import spacy
-from app.data_processer import DataProcessor
-
-
 class IntentRecogniser:
-    def __init__(self, genres, model_name):
+    def __init__(self, genres, entity_recogniser):
         self.genres = genres
-        self.model_name = model_name
-        self.nlp = spacy.load(model_name)
+        self.entity_recogniser = entity_recogniser
 
-    def identify_entities(self, text):
-        doc = self.nlp(text)
-        entities = []
-        for ent in doc.ents:
-            entities.append((ent.text, ent.label_))
-        return entities
-
-    def get_query_intents(self, tokens, entities):
+    def get_query_intents(self, entities):
         intents = []
-        for token in tokens:
-            if token in self.genres:
+        entity_types = {ent["type"] for ent in entities}
+
+        # Check for genres in entities
+        for ent in entities:
+            if ent["entity"].lower() in self.genres:
                 intents.append("genre_recommendation")
                 break
 
-        entity_types = {ent[1] for ent in entities}
-        if "PERSON" in entity_types or "ORG" in entity_types:
-            intents.append("author_query")
-        if "WORK_OF_ART" in entity_types:
-            intents.append("work_of_art_query")
-        if "DATE" in entity_types:
-            intents.append("date_query")
-        if "LANGUAGE" in entity_types:
-            intents.append("language_query")
+        intent_mappings = {
+            "PERSON": "author_query",
+            "ORG": "author_query",
+            "WORK_OF_ART": "work_of_art_query",
+            "DATE": "date_query",
+            "LANGUAGE": "language_query",
+            "GPE": "location_query",
+            "LOC": "location_query",
+            "NORP": "group_query",
+            "FAC": "facility_query",
+            "PRODUCT": "product_query",
+            "EVENT": "event_query",
+            "LAW": "law_query",
+            "PERCENT": "percent_query",
+            "MONEY": "money_query",
+            "QUANTITY": "quantity_query",
+            "ORDINAL": "ordinal_query",
+            "CARDINAL": "cardinal_query",
+            "TIME": "time_query",
+        }
+
+        for entity_type, intent in intent_mappings.items():
+            if entity_type in entity_types:
+                intents.append(intent)
 
         if not intents:
             intents.append("unknown")
 
         return intents
 
-    def extract_intent_details(self, tokens: list, entities: list, detail_type: str):
+    def extract_intent_details(self, entities, detail_type):
         details = set()
-        if detail_type == "genres":
-            for token in tokens:
-                if token in self.genres:
-                    details.add(token)
-        elif detail_type == "author":
-            for entity in entities:
-                if entity[1] == "PERSON":
-                    details.add(entity[0])
-        elif detail_type == "work_of_art":
-            for entity in entities:
-                if entity[1] == "WORK_OF_ART":
-                    details.add(entity[0])
-        elif detail_type == "date":
-            for entity in entities:
-                if entity[1] == "DATE":
-                    details.add(entity[0])
-        elif detail_type == "language":
-            for entity in entities:
-                if entity[1] == "LANGUAGE":
-                    details.add(entity[0])
+        detail_mapping = {
+            "genres": lambda ent: ent["entity"].lower() in self.genres,
+            "author": lambda ent: ent["type"] == "PERSON",
+            "work_of_art": lambda ent: ent["type"] == "WORK_OF_ART",
+            "date": lambda ent: ent["type"] == "DATE",
+            "language": lambda ent: ent["type"] == "LANGUAGE",
+        }
+        for ent in entities:
+            if detail_mapping[detail_type](ent):
+                details.add(ent["entity"])
         return details
 
     def process_query(self, input_string):
         """
         ENTRY POINT: Processes the input query to extract intents and relevant details.
         """
-        tokens = DataProcessor.process_text(input_string, self.nlp)
-        entities = self.identify_entities(input_string)
-        intents = self.get_query_intents(tokens, entities)
+        entities = self.entity_recogniser.identify_entities(input_string)
+        intents = self.get_query_intents(entities)
 
         details = {
             "genres": set(),
@@ -76,26 +71,25 @@ class IntentRecogniser:
             "dates": set(),
             "language": set(),
         }
+
         for intent in intents:
             if intent == "genre_recommendation":
                 details["genres"].update(
-                    self.extract_intent_details(tokens, entities, "genres")
+                    self.extract_intent_details(entities, "genres")
                 )
             elif intent == "author_query":
                 details["authors"].update(
-                    self.extract_intent_details(tokens, entities, "author")
+                    self.extract_intent_details(entities, "author")
                 )
             elif intent == "work_of_art_query":
                 details["works_of_art"].update(
-                    self.extract_intent_details(tokens, entities, "work_of_art")
+                    self.extract_intent_details(entities, "work_of_art")
                 )
             elif intent == "date_query":
-                details["dates"].update(
-                    self.extract_intent_details(tokens, entities, "date")
-                )
+                details["dates"].update(self.extract_intent_details(entities, "date"))
             elif intent == "language_query":
                 details["language"].update(
-                    self.extract_intent_details(tokens, entities, "language")
+                    self.extract_intent_details(entities, "language")
                 )
 
         return entities, intents, details
