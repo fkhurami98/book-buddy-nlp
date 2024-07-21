@@ -20,7 +20,6 @@ for text, annotations in TRAIN_DATA:
 
 optimizer = nlp.begin_training()
 
-# Training the model
 for iteration in range(9):  
     losses = {}
     batches = minibatch(examples, size=compounding(4.0, 32.0, 1.001))
@@ -28,4 +27,4 @@ for iteration in range(9):
         nlp.update(batch, drop=0.5, losses=losses)
     print(f"Iteration {iteration + 1}: Losses {losses}")
 
-nlp.to_disk("model_training/trained_models/custom_genre")
+nlp.to_disk("model_training/trained_models/custom_genre_v1")
